@@ -39,7 +39,7 @@ In addition, we found that there was class overlapping issue. Class overlap is c
 - KNN Imputer technique - Imputes missing values using the weighted or unweighted mean of the desired number of nearest neighbors
 - Iterative Imputer - This is part of an experimental library and this technique uses round-robin linear regression, modeling each feature with missing values as a function of other features, in turn. 
 
-All the error related to each imputation technique is documented under the **Model Accuracy Data.xls** file.
+All the error related to each imputation technique is documented under the **Model Accuracy Data.xlsx** file.
 
 3. Sampling issue - Used SMOTE (Synthetic minority Oversampling Technique) pipeline to catter with the class imbalanced problem. The pipeline combines SMOTE with random undersampling technique of the majority class. First oversample the minority class percent the number of examples of the majority class (e.g. about 1,000), then use random undersampling to reduce the number of examples in the majority class to have 50 percent more than the minority class (e.g. about 2,000).
 
@@ -48,4 +48,4 @@ Trained models like SVC, KNN and RandomForest with both Iterative and KNN Impute
 Addition to these models, I tried to train XGBoost and LGBM which accepts missing values and internally impute the missing value based on the available data.
 
 ### Performance
-Performance metrics used is ROC curve (AUC). The accuracy scores are documented under **Model Accuracy Data.xls** and the highlighted rows are the ones yielding the best performance for that model.
+Performance metrics used is ROC curve (AUC). The accuracy scores are documented under **Model Accuracy Data.xlsx** and the highlighted rows are the ones yielding the best performance for that model.
