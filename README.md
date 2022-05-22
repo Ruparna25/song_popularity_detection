@@ -26,3 +26,9 @@ Class Imbalance is very common in classification problems. In this data, the num
 In addition, we found that there was class overlapping issue. Class overlap is caused due to ambiguous regions in the data where the prior probability of two or more classes are approximately equal. Due to this the distribution of non-popular song across a feature overlaps the distribution of popular songs over the same feature. Below I have shown a distrubtion of the poular and non-poular songs over a few features.
 
 <img src='https://github.com/Ruparna25/song_popularity_detection/blob/main/Images/overlap_data.JPG' width=800 height=400></img>
+
+### Feature Handling
+
+### Model 
+
+### Performance
